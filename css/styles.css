@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+header{
+    background-color: #0F0E17;
+   
+}
+
+@media only screen  and (max-width:600px){
+    #profile{
+     display: flex;
+     justify-content: center;
+     width: 200px;
+        } 
+        
+}
+
+.testimonios{
+    text-align: center;
+    color:white;
+  }
+  .abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .form {
+    width: 450px;
+  }
+  @media screen and (max-width: 800px) {
+   
+      
+      .button {
+          flex-direction:row;
+          flex:0;
+      }
+  .button-f{
+      display: flex;
+      width: 300px;
+      margin-left: 50px;
+      justify-content: center;
+  }
+  .form1{
+      
+  display: grid;
+  align-items: left;
+  margin-right: 400px;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+
+  }
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 2fr));
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+  }
