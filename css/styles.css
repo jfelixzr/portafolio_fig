@@ -1,9 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  
+
 html,
 body {
   height: 100%;
@@ -11,78 +11,64 @@ body {
   padding: unset;
   font-family: Nunito;
 }
-header{
-    background-color: #0F0E17;
-   
+header {
+  background-color: #0f0e17;
 }
 
-.icons{
-    text-align: right;
-    
-   }
+.icons {
+  text-align: right;
+}
 
+.testimonios {
+  text-align: center;
+  color: white;
+}
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
-.testimonios{
-    text-align: center;
-    color:white;
-  }
-  .abs-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  
-  .form {
-    width: 450px;
-  }
-#arrow-d
-{  font-size: 56px;
+.form {
+  width: 450px;
+}
+#arrow-d {
+  font-size: 56px;
   font-weight: normal;
-  color:#ff8906;
-  margin-top:-130px;
+  color: #ff8906;
+  margin-top: -100px;
   position: absolute;
 }
 
-.navmenu li a{
-  color:white;
+.navmenu li a {
+  color: white;
   text-decoration: none;
 }
-.navmenu li a:hover{
- 
-
+.navmenu li a:hover {
   border-bottom: 2px solid #f25f4c;
   padding-bottom: 2px;
   color: #f25f4c;
 }
 
 .card-ama {
-  background-color:#0F0E17; 
-  color: white; 
-  position: absolute;  
- 
+  background-color: #0f0e17;
+  color: white;
+  position: absolute;
 
   margin-left: 650px;
   margin-top: -300px;
-  
 }
 .card-niko {
-  background-color:#0F0E17; 
-  color: white; 
-  position: absolute;  
- 
-
-  
-  
+  background-color: #0f0e17;
+  color: white;
+  position: absolute;
 }
 .card-prin {
-  background-color:#0F0E17; 
-  color: white; 
-  position: absolute;  
- margin-top:-150px;
- 
-  
-  
+  background-color: #0f0e17;
+  color: white;
+  position: absolute;
+  margin-top: -150px;
 }
 footer {
   background-color: #000000;
@@ -93,8 +79,7 @@ footer {
   color: white;
 }
 
-#container-footer
- {
+#container-footer {
   display: flex;
   justify-content: space-between;
   padding: 40px 72px;
@@ -112,44 +97,48 @@ footer {
 .footer-r a:hover {
   color: var(--button-background);
 }
-  @media screen and (max-width: 800px) {
-   
-      
-      .button {
-          flex-direction:row;
-          flex:0;
-      }
-  .button-f{
-      display: flex;
-      width: 300px;
-      margin-left: 50px;
-      justify-content: center;
+@media screen and (max-width: 800px) {
+  #arrow-d {
+    font-size: 56px;
+    font-weight: normal;
+    color: #ff8906;
+    margin-top: -130px;
+    position: absolute;
   }
-  .form1{
-      
-  display: grid;
-  align-items: left;
-  margin-right: 400px;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 
+  .button {
+    flex-direction: row;
+    flex: 0;
   }
-footer{
-  display: flex;
-  flex-direction: row;
-  
-  justify-content: space-between;
-  
-}
-.icons{
- text-align: right;
+  .button-f {
+    display: flex;
+    width: 300px;
+    margin-left: 50px;
+    justify-content: center;
+  }
+  .form1 {
+    display: grid;
+    align-items: left;
+    margin-right: 400px;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+  footer {
+    display: flex;
 
-}
+    justify-content: center;
+    align-items: center;
   }
-  @media only screen  and (max-width:600px){
-    #profile{
-     display: flex;
-     justify-content: center;
-     width: 200px;
-        } 
-        
+  .icons {
+    text-align: right;
+  }
+  #footer-l {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #profile {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+  }
 }
